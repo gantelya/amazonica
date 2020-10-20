@@ -1,6 +1,6 @@
-(defproject amazonica "0.3.153"
+(defproject gantelya/amazonica "0.0.001"
   :description "A comprehensive Clojure client for the entire Amazon AWS api."
-  :url "https://github.com/mcohen01/amazonica"
+  :url "https://github.com/gantelya/amazonica"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :java-source-paths ["src/main/java"]
@@ -9,7 +9,7 @@
   :deploy-repositories [["releases" :clojars]]
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/algo.generic "0.1.2"]
-                 [com.amazonaws/aws-java-sdk "1.11.850" :exclusions [joda-time]]
+                 [com.amazonaws/aws-java-sdk "1.11.883" :exclusions [joda-time]]
                  [com.amazonaws/amazon-kinesis-client "1.9.3" :exclusions [joda-time]]
                  [com.amazonaws/dynamodb-streams-kinesis-adapter "1.2.1"
                   :exclusions [com.amazonaws/amazon-kinesis-client
