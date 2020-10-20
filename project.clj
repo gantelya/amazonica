@@ -1,4 +1,4 @@
-(defproject gantelya/amazonica "0.0.001"
+(defproject gantelya/amazonica "0.0.002"
   :description "A comprehensive Clojure client for the entire Amazon AWS api."
   :url "https://github.com/gantelya/amazonica"
   :license {:name "Eclipse Public License"
